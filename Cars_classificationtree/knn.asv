@@ -1,0 +1,19 @@
+for i=1:1000
+   if trainsettargets(1)== i
+       KNNtrainsettargets(i,1) = 'Car';
+   else
+       KNNtrainsettargets(i,1)='No Car';
+       
+   end
+    
+end
+
+for i=1:1000
+   if testsettargets(1)== i
+       KNNtestsettargets(i,1) = 'Car';
+   else
+       KNNtesettargets(i,1)='No Car';
+       
+   end
+    
+end
